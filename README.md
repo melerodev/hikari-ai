@@ -1,15 +1,17 @@
-Para desplegar el proyecto necesitas tener la última versión de Node y tener instalado `pnpm`.
+To deploy the project, you need to have the latest version of Node.js installed and have `pnpm` installed.
 
-Para instalar `pnpm` ejecuta este comando en la terminal:
+To install `pnpm`, run the following command in the terminal:
+
 ```bash
 npm install -g pnpm
 ```
 
-Ahora para desplegar el proyecto primero tenemos que descargar las dependencias, construir el proyecto y inicializar este. Para ello ejecutaremos estos en este orden 
+Now, to deploy the project, we first need to install the dependencies, build the project, and start it. Run the following commands in this order:
+
 ```bash
-pnpm install # Instalar dependecias
-pnpm build # Construit el proyecto
-pnpm start # Inizalicar el proyecto
+pnpm install # Install dependencies
+pnpm build   # Build the project
+pnpm start   # Start the project
 ```
 
-Después de ello accederemos a http://localhost:3000/ en el navegador y podremos utiliza la aplicación.
+After that, open [http://localhost:3000/](http://localhost:3000/) in your browser and you will be able to use the application.
